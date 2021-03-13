@@ -1,7 +1,7 @@
 document.getElementById('signin').style.display = "none"
 
 function showform() {
-    if (document.getElementById('show').style.display == "block") {
+    if (document.getElementById('signin').style.display == "none") {
         document.getElementById('show').style.display = "none";
         document.getElementById('signin').style.display = "block";
     }
